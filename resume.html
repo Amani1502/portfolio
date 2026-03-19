@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amani Gundu Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Portfolio</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Amani Gundu</h1>
+      <h3 class="typing-text">And I'm a <span id="typed-role"></span></h3>
+      <p id="typed-para"></p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/amani-gundu-323383250/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/@amanigraceg" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/amani_grace_g/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="home-image">
+      <div class="glow-circle">
+        <div class="image-circle">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="Profile Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img reveal left">
+      <div class="glow-circle">
+        <div class="image-circle">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="About Image">
+        </div>
+      </div>
+    </div>
+    <div class="about-text reveal right">
+      <h2>About <span>Me</span></h2>
+      <h4>Software development Engineer</h4>
+      <p>I am a Software Development Engineer with a strong interest in frontend development and creating user-friendly web applications. I have worked on website projects in frontend development, which helped me gain practical experience in responsive design, interactive interfaces, and modern web technologies.</p>
+      <a href="#contact" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title reveal top">My <span>Skills</span></h2>
+    <div class="skills-container">
+      <div class="technical-skills reveal left">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar"><div class="skill-info"><span>HTML</span><span>90%</span></div><div class="bar"><div class="progress html"></div></div></div>
+        <div class="skill-bar"><div class="skill-info"><span>CSS</span><span>85%</span></div><div class="bar"><div class="progress css"></div></div></div>
+        <div class="skill-bar"><div class="skill-info"><span>JavaScript</span><span>80%</span></div><div class="bar"><div class="progress javascript"></div></div></div>
+        <div class="skill-bar"><div class="skill-info"><span>PHP</span><span>75%</span></div><div class="bar"><div class="progress php"></div></div></div>
+      </div>
+      <div class="professional-skills reveal right">
+        <h3>Professional Skills</h3>
+        <div class="circle-grid">
+          <div class="circle-card"><div class="circle-progress" style="--value: 90;"><div class="circle-inner">90%</div></div><p>Creativity</p></div>
+          <div class="circle-card"><div class="circle-progress" style="--value: 85;"><div class="circle-inner">85%</div></div><p>Communication</p></div>
+          <div class="circle-card"><div class="circle-progress" style="--value: 80;"><div class="circle-inner">80%</div></div><p>Problem Solving</p></div>
+          <div class="circle-card"><div class="circle-progress" style="--value: 90;"><div class="circle-inner">90%</div></div><p>Teamwork</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title reveal top">My <span>Projects</span></h2>
+    <div class="projects-container">
+      <div class="project-card reveal bottom">
+        <img src="images/unnamed.jpg" alt="TheWaterberry Website">
+        <div class="project-layer">
+          <h4>TheWaterberry Website</h4>
+          <p>A responsive frontend e-commerce website designed with a clean user interface and smooth user experience.</p>
+          <a href="thewaterberry.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-card reveal bottom">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Tomato Leaf Disease Detection">
+        <div class="project-layer">
+          <h4>Tomato Leaf Disease Detection Using ML</h4>
+          <p>A machine learning project developed to identify tomato leaf diseases accurately using image-based prediction.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project-card reveal bottom">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="Face Detection Using OpenCV Python">
+        <div class="project-layer">
+          <h4>Face Detection Using OpenCV Python</h4>
+          <p>A computer vision project that detects human faces in real time using OpenCV and Python.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/917893638990" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <section class="contact" id="contact">
+    <div class="contact-left reveal left">
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <h3>Let's Work Together</h3>
+      <p>I am interested in frontend development and software development opportunities. I enjoy building clean, responsive, and user-friendly websites.</p>
+      <div class="contact-info">
+        <p><i class="fa-solid fa-envelope"></i> amanigundu15@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 7893638990</p>
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.instagram.com/amani_grace_g/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@amanigraceg"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/amani-gundu-323383250/"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="contact-right reveal right">
+      <form action="https://formsubmit.co/amanigundu15@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+        <input type="text" name="subject" placeholder="Enter Your Subject" required>
+        <textarea name="message" rows="8" placeholder="Enter Your Message" required></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <button type="submit" class="contact-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    const roles=["Software Development Engineer","Frontend Developer","Passionate Web Creator"];
+    const typedRole=document.getElementById("typed-role");
+    let roleIndex=0,charIndex=0,isDeleting=false;
+    function typeRole(){
+      const currentRole=roles[roleIndex];
+      typedRole.textContent=isDeleting?currentRole.substring(0,charIndex--):currentRole.substring(0,charIndex++);
+      let speed=isDeleting?70:120;
+      if(!isDeleting&&charIndex===currentRole.length+1){speed=1200;isDeleting=true}
+      else if(isDeleting&&charIndex===0){isDeleting=false;roleIndex=(roleIndex+1)%roles.length;speed=300}
+      setTimeout(typeRole,speed)
+    }
+    typeRole();
+
+    const paragraphText="I'm a web designer with hands-on experience in frontend development. My expertise is creating responsive websites, clean UI designs, interactive sections, and user-friendly digital experiences.";
+    const typedPara=document.getElementById("typed-para");
+    let paraIndex=0;
+    function typeParagraph(){if(paraIndex<paragraphText.length){typedPara.textContent+=paragraphText.charAt(paraIndex);paraIndex++;setTimeout(typeParagraph,30)}}
+    setTimeout(typeParagraph,500);
+
+    const reveals=document.querySelectorAll('.reveal');
+    const skillsSection=document.querySelector('.skills');
+    function revealOnScroll(){
+      const windowHeight=window.innerHeight;
+      reveals.forEach((element)=>{const elementTop=element.getBoundingClientRect().top; if(elementTop < windowHeight - 120){element.classList.add('active')}});
+      if(skillsSection){const skillsTop=skillsSection.getBoundingClientRect().top; if(skillsTop < windowHeight - 120){skillsSection.classList.add('show-bars')}}
+    }
+    window.addEventListener('scroll',revealOnScroll);
+    window.addEventListener('load',revealOnScroll);
+  </script>
+</body>
+</html>
